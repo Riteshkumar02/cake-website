@@ -45,6 +45,13 @@
   .z{
     color:green;
   }
+.imgrecipe-hero-img{
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 4px;
+    /* border: 6px solid black;
+  	border-image: linear-gradient(45deg, turquoise, greenyellow) 1; */
+  }
   p{
     font-weight: bold;
     padding-top: 40px;

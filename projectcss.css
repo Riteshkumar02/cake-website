@@ -107,14 +107,11 @@
   nav ul li a{
     color: white;
     font-size: 17px;
+    text-decoration-line:none;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
   }
-  /* a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
-  } */
   .checkbtn{
     font-size: 30px;
     color: white;
@@ -174,32 +171,7 @@
    /* padding-top: 0px; */
    margin-top: 0px;
     text-align: center;
-    /* justify-content: center; */
-    /* top: 50px;
-    left: 20px; */
-   
   }
-  
-  /* .NAV{
-    /* font-family:cursive; */
-    /* font-family: monospace, monospace; 
-    font-size:20px;
-    font-size: 1em;  */
-    /* position: sticky;
-    top: 0;
-    padding: 5px; */
-    /* background-color: #cae8ca; */
-    /* border: 2px  ;
-    z-index: 99;
-    color:blue;
-      text-align: center; */
-  /* } */
-  .NAV1{
-    color:blue;
-    font-size: 1em; /* 2 */
-    text-decoration-line:none;
-  } */
-  
   .flav{
     padding: 8px;
     margin-top: 20px;
@@ -250,6 +222,7 @@
         .hov:hover{
           border-radius:50%;
           background-color:green;
+          transition:  0.4s ease;
         
         }
     .ch1{
@@ -319,8 +292,6 @@
       text-align: center;
   }
   .ch4{
-      /* border:solid 5px; */
-    /* margin-left: 20px; */
     height: 300px; 
     width: 300px; 
   color:green;
@@ -351,12 +322,8 @@
       color: rgb(255, 153, 0);
   }
   .ya1{
-      /* border:solid 5px; */
-      /* margin-left: 20px; */
        height: 300px; 
       width: 300px; 
-  /* color:brown; */
-  /* display: inline-block; */
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
@@ -372,8 +339,6 @@
         left: 50px;
     }
     .ya2{
-      /* border:solid 5px; */
-    /* margin-left: 20px; */
     height: 300px; 
     width: 300px; 
   color:brown;
@@ -394,8 +359,6 @@
       left: 45px;
   }
   .ya3{
-    /* border:solid 5px; */
-  /* margin-left: 20px; */
   height: 300px; 
   width: 300px; 
   color:darkmagenta;
@@ -415,8 +378,7 @@
     left: 90px;
   }
   .ya4{
-    /* border:solid 5px; */
-  /* margin-left: 20px; */
+  
   height: 300px; 
   width: 300px; 
   color:green;
@@ -738,13 +700,6 @@
   ===============
   */
   .footer{
-    /* position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    width: 100%;
-   padding:auto auto;
-   /* margin-top: 60px; */
    text-align: center;
    
     background-color: black;
